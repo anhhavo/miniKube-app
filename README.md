@@ -1,8 +1,8 @@
-# Assignment-3-465820
 
-#  CSE427S- Cloud Computing and Big Data Applications
 
-**Lab 3**
+#Cloud Computing and Big Data Applications
+
+**Lab**
 
 For this lab, we will practive more with Docker and get familiar with Kubernet.
 We will take our created docker image from Lab 2 and host it in a MiniKube cluster.
