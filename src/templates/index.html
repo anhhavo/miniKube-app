@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.4.8/socket.io.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+</head>
+
+<body>
+
+
+<h1> This is the first lab of CSE427S</h1>
+<div class="container" id = "content">
+<div>
+    
+    <img src ="{{ url_for('first_csv') }}" alt = "First CSV">
+</div>
+
+<div id="newimage">
+    <img src ="{{ url_for('second_csv') }}" alt = "Second CSV">
+</div>
+
+</body>
+
+</html>

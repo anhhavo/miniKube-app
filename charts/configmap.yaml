@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: bucket-configmap
+data:
+  Bucket_S3: "cse427-ahvo"
+  S3_Bucket_First_CSV: "lab1/number1.csv"
+  S3_Bucket_Second_CSV: "lab1/number2.csv"
+  port: "8080"
